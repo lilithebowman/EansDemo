@@ -70,6 +70,7 @@ div.container.slide-animation {
   -webkit-transition: 1.5s;
 }
 div.container.slide-animation:hover {
+  transform: rotate3d(-1, 0, 0, 15deg);
   -webkit-transform: rotate3d(-1, 0, 0, 15deg);
 }
 
