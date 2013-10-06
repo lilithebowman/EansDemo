@@ -60,3 +60,17 @@ opacity: 1;
 left: 0;
 opacity: 0;
 }
+
+body {
+  -webkit-perspective: 400px;
+}
+
+
+div.container.slide-animation {
+  -webkit-transition: 1.5s;
+}
+div.container.slide-animation:hover {
+  -webkit-transform: rotate3d(1,-1, 0,15deg);
+  transform: rotate3d(1,-1, 0,15deg);
+}
+
