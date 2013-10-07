@@ -67,18 +67,16 @@ body {
 
 
 div.container.slide-animation {
-  transform: rotate3d(-1, 0, 0, 1deg);
-	-webkit-transform: rotate3d(-1, 0, 0, 1deg);
-	-moz-transform: rotate3d(-1, 0, 0, 1deg);
-	-o-transform: rotate3d(-1, 0, 0, 1deg);
-	-ms-transform: rotate3d(-1, 0, 0, 1deg);
+  -webkit-transform-origin: 50% 0px;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: translateY(0px) rotateX(1deg);
   -webkit-transition: .5s;
 }
 div.container.slide-animation:hover {
-  transform: rotate3d(-1, 0, 0, 15deg);
-	-webkit-transform: rotate3d(-1, 0, 0, 15deg);
-	-moz-transform: rotate3d(-1, 0, 0, 15deg);
-	-o-transform: rotate3d(-1, 0, 0, 15deg);
-	-ms-transform: rotate3d(-1, 0, 0, 15deg);
+  -webkit-transform-origin: 50% 0px;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: translateY(70px) rotateX(-15deg);
 }
 
