@@ -62,15 +62,18 @@ opacity: 0;
 }
 
 body {
-  -webkit-perspective: 400px;
+  -webkit-perspective: 1024px;
 }
 
 
 div.container.slide-animation {
-  -webkit-transition: 1.5s;
+  -webkit-transition: .5s;
 }
 div.container.slide-animation:hover {
   transform: rotate3d(-1, 0, 0, 15deg);
-  -webkit-transform: rotate3d(-1, 0, 0, 15deg);
+	-webkit-transform: rotate3d(-1, 0, 0, 15deg);
+	-moz-transform: rotate3d(-1, 0, 0, 15deg);
+	-o-transform: rotate3d(-1, 0, 0, 15deg);
+	-ms-transform: rotate3d(-1, 0, 0, 15deg);
 }
 
