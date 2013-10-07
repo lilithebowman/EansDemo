@@ -2532,5 +2532,5 @@ document.write('<style type="text/css">.cssSandpaper-initiallyHidden { visibilit
 
 
 
-EventHelpers.addPageLoadEvent('cssSandpaper.init')
+if( typeof EventHelpers != 'undefined' ) EventHelpers.addPageLoadEvent('cssSandpaper.init')
 
