@@ -67,6 +67,11 @@ body {
 
 
 div.container.slide-animation {
+  transform: rotate3d(-1, 0, 0, 1deg);
+	-webkit-transform: rotate3d(-1, 0, 0, 1deg);
+	-moz-transform: rotate3d(-1, 0, 0, 1deg);
+	-o-transform: rotate3d(-1, 0, 0, 1deg);
+	-ms-transform: rotate3d(-1, 0, 0, 1deg);
   -webkit-transition: .5s;
 }
 div.container.slide-animation:hover {
