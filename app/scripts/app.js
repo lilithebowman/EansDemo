@@ -15,7 +15,7 @@ angular.module('eansDemoApp', ['ngRoute', 'ngResource', 'ngAnimate', 'DataSource
 		});
   });
 	
-angular.module('myApp.service',[]).
+angular.module('eansDemoApp',[]).
     factory('DataSource', ['$http',function($http){
        return {
            get: function(callback){
