@@ -5,6 +5,6 @@
 </div>
 
 <div class="entry" ng-repeat="entry in feed.entries">
-	<div class="content">{{entry.content}}</div>
+	<img ng-src="{{entry.mediaGroups[0].contents[0].thumbnails[1].url}}" />
 	<h3>{{entry.title}}</h3>
 </div>
