@@ -10,6 +10,9 @@ angular.module('eansDemoApp', ['ngRoute', 'ngResource', 'ngAnimate', 'DataSource
       .otherwise({
         redirectTo: '/'
       });
+		DataSource.get(function(data){
+			alert(data)
+		});
   });
 	
 angular.module('myApp.service',[]).
