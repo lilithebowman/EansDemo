@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eansDemoApp', ['ngRoute', 'ngResource', 'ngAnimate'])
+angular.module('eansDemoApp', ['ngRoute', 'ngResource', 'ngAnimate', 'DataSource'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
