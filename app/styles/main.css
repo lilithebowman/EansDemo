@@ -70,7 +70,7 @@ body {
 }
 
 
-div.container.slide-animation {
+div.rotate {
 	transform-origin: 50% 0px;
 	-webkit-transform-origin: 50% 0px;
 	-webkit-transition: all 0.5s ease;
@@ -82,7 +82,7 @@ div.container.slide-animation {
 	-sand-transform: translateY(0px) rotateX(1deg);
 	transform: translateY(0px) rotateX(1deg);
 }
-div.container.slide-animation:hover {
+div.rotate:hover {
 	-webkit-transform: translateY(70px) rotateX(-15deg);
 	-moz-transform: translateY(70px) rotateX(-15deg);
 	-ms-transform: translateY(70px) rotateX(-15deg);

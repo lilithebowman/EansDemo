@@ -3,12 +3,8 @@
 angular.module('eansDemoApp')
   .controller('MainCtrl', function ($scope,deviantArt) {
 				$scope.feedSrc="http://backend.deviantart.com/rss.xml?q=gallery%3Aeanbowman";
-        deviantArt.parseFeed($scope.feedSrc).then(function(response){
-            /*This object contains the feed. Inspect it in debugger*/
-            var feed = response.data.responseData.feed;
-            console.log(feed);
-/*            $scope.loadButonText=angular.element(e.target).text();
-            $scope.feeds=res.data.responseData.feed.entries;*/
+        $scope.feed = deviantArt.parseFeed($scope.feedSrc).then(function(response){
+            return response.data.responseData.feed;
         });
 
 
