@@ -10,7 +10,8 @@ angular.module('eansDemoApp', ['ngRoute', 'ngResource', 'ngAnimate', 'DataSource
       .otherwise({
         redirectTo: '/'
       });
-		DataSource.get(function(data){
+		var URI = 'http://backend.deviantart.com/rss.xml?q=gallery%3Aeanbowman';
+		DataSource.get(function(URI){
 			alert(data)
 		});
   });
