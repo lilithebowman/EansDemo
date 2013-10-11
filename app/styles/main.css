@@ -90,3 +90,22 @@ div.rotate:hover {
 	transform: translateY(70px) rotateX(-15deg);
 }
 
+div.entry {
+	width: 100%;
+	height: 600px;
+}
+div.entryframe {
+	content: '{{frame}}';
+	color: white;
+	width: 800px;
+	height: 585px;
+	background: url('../images/empty-frame.png') 0px 0px no-repeat;
+	background-size: cover;
+	position: absolute;
+	z-index: 1;
+}
+div.entryframe img {
+	margin-left: 78px;
+	margin-top: 76px;
+	width: 648px;
+}

@@ -5,7 +5,9 @@
 </div>
 <div class="row">
 	<div class="entry col-xs-6 col-md-4" ng-repeat="entry in feed.entries">
-		<img ng-src="{{entry.mediaGroups[0].contents[0].thumbnails[1].url}}" />
+		<div class="entryframe">
+			<img ng-src="{{entry.mediaGroups[0].contents[0].thumbnails[1].url}}" />
+		</div>
 		<h3>{{entry.title}}</h3>
 	</div>
 </div>
