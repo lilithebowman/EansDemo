@@ -65,40 +65,37 @@ body {
   -webkit-perspective: 1024px;
   -moz-perspective: 1024px;
   -ms-perspective: 1024px;
-  -sand-perspective: 1024px;
   perspective: 1024px;
+	-webkit-transform-origin: 50% 50% 50%;
+	-moz-transform-origin: 50% 50% 50%;
+	-ms-transform-origin: 50% 50% 50%;
+	transform-origin: 50% 50% 50%;
 }
 
-
-div.rotate {
-	transform-origin: 50% 0px;
-	-webkit-transform-origin: 50% 0px;
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	-webkit-transition: .5s;
-	-webkit-transform: translateY(0px) rotateX(1deg);
-	-moz-transform: translateY(0px) rotateX(1deg);
-	-ms-transform: translateY(0px) rotateX(1deg);
-	-sand-transform: translateY(0px) rotateX(1deg);
-	transform: translateY(0px) rotateX(1deg);
-}
-div.rotate:hover {
-	-webkit-transform: translateY(70px) rotateX(-15deg);
-	-moz-transform: translateY(70px) rotateX(-15deg);
-	-ms-transform: translateY(70px) rotateX(-15deg);
-	-sand-transform: translateY(70px) rotateX(-15deg);
-	transform: translateY(70px) rotateX(-15deg);
-}
 
 div.entry {
 	display: inline-block;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border: 20px solid #dedddF;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-transform: translateY(0px) rotateX(0.1deg);
+	-moz-transform: translateY(0px) rotateX(0.1deg);
+	-ms-transform: translateY(0px) rotateX(0.1deg);
+	transform: translateY(0px) rotateX(0.1deg);
 }
 div.entry:nth-child(3n+1) {
 	clear: both;
 }
 div.entry > .title, div.entry > div.description {
 	padding: 20px;
+}
+div.entry:hover {
+	-webkit-transform: translateY(2px) rotateX(2.1deg);
+	-moz-transform: translateY(2px) rotateX(2.1deg);
+	-ms-transform: translateY(2px) rotateX(2.1deg);
+	transform: translateY(2px) rotateX(2.1deg);
 }
