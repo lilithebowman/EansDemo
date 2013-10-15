@@ -90,3 +90,9 @@ div.rotate:hover {
 	transform: translateY(70px) rotateX(-15deg);
 }
 
+div.entry {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 20px solid #dedddF;
+}
