@@ -96,6 +96,9 @@ div.entry {
 	margin-bottom: 20px;
 	border: 20px solid #dedddF;
 }
+div.entry:nth-child(3n+1) {
+	clear: both;
+}
 div.entry > .title, div.entry > div.description {
 	padding: 20px;
 }
